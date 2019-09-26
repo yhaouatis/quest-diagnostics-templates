@@ -1,1 +1,1 @@
-# quest-diagnostics-templates
+# Quest Diagnostics Templates
