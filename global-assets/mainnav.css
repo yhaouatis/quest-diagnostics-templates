@@ -1,0 +1,61 @@
+
+#nav-main { border-top: 1px solid transparent; position: relative; z-index: 25; margin-bottom: 10px; height: 53px;
+background: rgb(53,121,42);
+background: -webkit-linear-gradient(top, transparent,transparent 7px,rgb(53,121,42) 7px,rgb(53,121,42) 48px,rgb(198,213,47) 48px,rgb(198,213,47) 100%);
+background: linear-gradient(to bottom, transparent,transparent 7px,rgb(53,121,42) 7px,rgb(53,121,42) 48px,rgb(198,213,47) 48px,rgb(198,213,47) 100%);
+background-repeat: no-repeat; }
+#nav-main.is-open { background: none; border-color: rgb(230,230,230); }
+#nav-main-list { height: 53px; width: 945px; margin: -1px auto 0; }
+#nav-main-list li { float: left; }
+#nav-main-list a { display: block; height: 53px; /*text-indent: -9999px;*/ overflow: hidden; background-image: url(../img/nav-main.matrix.2015.png); margin-top: 21px; color: #fff; }
+#nav-home { width: 98px; }
+#nav-home a { background-position: 0 0; }
+#nav-home a.active { background-position: 0 -55px; }
+.is-open #nav-home a { background-position: 0 -110px; }
+.is-open #nav-home.sfHover a { background-position: 0 -165px; }
+#nav-patients { width: 140px; }
+#nav-patients a { background-position: -98px 0; }
+#nav-patients a.active { background-position: -98px -55px; }
+.is-open #nav-patients a { background-position: -98px -110px; }
+.is-open #nav-patients.sfHover a { background-position: -98px -165px; }
+#nav-physicians { width: 237px; }
+#nav-physicians a { background-position: -238px 0; }
+#nav-physicians a.active { background-position: -238px -55px; }
+.is-open #nav-physicians a { background-position: -238px -110px; }
+.is-open #nav-physicians.sfHover a  { background-position: -238px -165px; }
+#nav-companies { width: 268px; }
+#nav-companies a { background-position: -475px 0; }
+#nav-companies a.active { background-position: -475px -55px; }
+.is-open #nav-companies a { background-position: -475px -110px; }
+.is-open #nav-companies.sfHover a { background-position: -475px -165px; }
+#nav-contact { width: 134px; }
+#nav-contact a { background-position: -743px 0; }
+#nav-contact a.active { background-position: -743px -55px; }
+.is-open #nav-contact a { background-position: -743px -110px; }
+.is-open #nav-contact.sfHover a { background-position: -743px -165px; }
+
+#nav-main .menu { position: absolute; background: #fff; left: 0; width: 100%; padding: 28px 0 35px; top: -999em; font-size: 13px; }
+#nav-main li.sfHover .menu { top: 52px; box-shadow: 0 5px 4px 0 rgba(0,0,0,0.2); }
+#nav-main li.sfHover .empty { background: none; padding: 0; box-shadow: none; }
+#nav-main .menu-content { margin: 0 auto; width: 975px; overflow: hidden; }
+
+#nav-main .menu a { color: rgb(99,102,106); border-bottom-width: 1px; border-bottom-style: dotted; text-indent: 0; background-image: none; height: auto; display: inline; overflow: visible; }
+#nav-main .menu a:hover { text-decoration: none; color: rgb(53,121,42); }
+#nav-main img { max-width: 197px; }
+#nav-main .col li { float: none; margin: 0 0 5px; }
+#nav-main .col li:last-child { margin: 0; }
+#nav-main .col a { border: none; }
+#nav-main .col a:hover { border-bottom-width: 1px; border-bottom-style: dotted; }
+
+#nav-main .col-4 { display: table; width: 1000px; margin-left: -13px; }
+#nav-main .col { display: table-cell; border-left: 1px solid rgb(230,230,230); }
+#nav-main .col-4 .col { width: 250px; padding: 0 26px; }
+
+.menu h2 { font-weight: normal; font-size: 15px; margin-bottom: 11px; }
+#nav-main [class^="actions_"]:first-of-type { margin-top: 19px; }
+
+
+#header-search button {
+    text-indent: inherit !important;
+    color: #fff !important;
+}
