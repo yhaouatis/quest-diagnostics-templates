@@ -1,0 +1,57 @@
+.slider { background: rgb(255,255,255); margin-top: 24px; overflow: hidden; position: relative; min-height: 30px; }
+.sliderprev, .slidernext { background: url(../img/home.slider.arrows.png); display: none; height: 80px; left: 13px; overflow: hidden; position: absolute; text-indent: -9999px; top: 163px; width: 45px; z-index: 5; }
+.slidernext { left: auto; right: 13px; }
+.sliderprev:hover { background-position: 0 -80px; }
+.slidernext { background-position: -45px 0; }
+.slidernext:hover { background-position: -45px -80px; }
+.slider .slidetext { display: none; overflow: hidden; position: absolute; z-index: 3; }
+.slider .slidetext img { display: block; }
+.slider .slidebg { display: none; left: 0; position: absolute; top: 0; z-index: 1; }
+.slider .active .slidetext, .slider .active .slidebg { display: block; }
+.slider .slides { margin-bottom: 0 !important; height: 247px; overflow: hidden; position: relative; }
+.slider .slides li { display: block; height: 100%; left: 0; position: absolute; top: 0; width: 100%; margin: 0 !important; padding: 0 !important; background: none !important; }
+.slidernav { display: none; text-align: center; z-index: 6; height: 31px; padding-top: 17px; }
+.js .sliderprev, .js .slidernext, .js .slidernav { display: block; }
+.slidernav ul { margin: 0 !important; }
+.slidernav li { display: inline-block; position: relative; margin: 0 !important; padding: 0 !important; background: none !important; }
+.slidernav li a { background: rgb(53,121,42); border-radius: 50%; float: left;  margin: 0 4px; overflow: hidden; text-indent: -9999px; width: 8px; height: 8px; }
+.slidernav li.active a, .slidernav li a:hover { background: rgb(198,213,47); }
+
+.slider-home { margin: 0 0 1px; }
+.slider-home .slides { height: 350px; }
+.slider-home .slidernavwrap { height: 50px; position: absolute; top: 331px; width: 100%; z-index: 6; }
+.slider-home .slideline { display: none; }
+.slider-home .slidernav { position: absolute; bottom: 37px; left: 653px; height: auto; padding: 10px 0; }
+
+.slider.bdb { border-bottom: 1px solid rgb(230,230,230); }
+
+.slider-home-small { height: 284px; margin-bottom: 15px; }
+.slider-home-small .slideline { top: 226px; }
+.slider-home-small .slidernav { top: 246px; }
+.slider-home-small .slidetext { bottom: 53px; left: 82px; }
+
+.slider-columns { background: url(../img/bg.slider-features.gif) no-repeat 0 100%; height: auto; overflow: hidden; width: 705px; }
+.slider-columns .slidernav { bottom: auto; clear: both; top: -25px; }
+.slider-columns .slides { width: 10000px; }
+.slider-columns .slides li { float: left; padding: 18px 27px 40px 22px !important; position: static; width: 656px; }
+.slider-columns .sliderprev, .slider-columns .slidernext { background: url(../img/home.slider.arrows.small.png); height: 42px; left: 3px; overflow: hidden; position: absolute; text-indent: -9999px; top: 163px; width: 27px; z-index: 5; }
+.slider-columns .slidernext { left: auto; right: 8px; }
+.slider-columns .sliderprev:hover { background-position: 0 -42px; }
+.slider-columns .slidernext { background-position: -27px 0; }
+.slider-columns .slidernext:hover { background-position: -27px -42px; }
+.slider-columns .frame { background: url(../img/bg.slider-features.gif) no-repeat 100% 0; height: 50px; left: 0; position: absolute; top: 0; width: 705px; }
+.slider-columns .feature { border-left: 1px solid rgb(219,219,219); min-height: 295px; padding: 0 14px 15px; }
+.slider-columns .feature-left { border: 0; }
+.slider-columns .feature-img img { float: left; margin-right: 20px; zoom: 1; }
+.slider-columns .feature-img .text { display: table-cell; padding-right: 25px; zoom: 1; }
+.slider-columns .feature-img .text h2 { font-size: 1.167em; margin-bottom: 5px; }
+.slider-columns .slides .text ul { margin-bottom: 1em; }
+.slider-columns .slides .text ol { margin-bottom: 1em; padding-left: 22px; list-style: decimal; }
+.slider-columns .slides .text li { float: none; position: static; width: auto; height: auto; display: list-item; }
+.slider-columns .slides .text ul li { padding: 0 0 0 22px !important; background: url(../img/icon.bullet.disc.gif) no-repeat 15px 0.5em !important; }
+.slider-columns .slides .text ol li { padding: 0 !important; }
+.slider-columns-title .frame h2 { font-size: 1.167em; padding: 10px 37px; }
+.slider-columns-title .slides li { padding-top: 37px !important; }
+
+.slider-columns-fade .slides { height: 250px; }
+.slider-columns-fade .slides li { float: none; height: 75%; position: absolute; }
